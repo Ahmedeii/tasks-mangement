@@ -1,0 +1,240 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+main{
+  color: inherit;
+
+  min-height: calc(100vh - 133px);
+
+  font-size: 30px;
+  font-weight: bold;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+
+  font-family: sans-serif;
+
+  text-decoration: none;
+  list-style: none;
+
+  letter-spacing: 1px;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #1b1b1b;
+}
+
+h1 {
+  padding: 20px;
+  font-size: 25px;
+}
+/* ================= */
+.dark{
+  background-color: black;
+}
+.dark main{
+  color: #f2f2f2;
+}
+.dark .ali{
+  background-color: rgba(31, 30, 30, 0.885)!important
+}
+.light main p{
+  color:#1b1b1b
+}
+.light .m{
+  color: #000;
+}
+.light .p h6{
+  color: #1b1b1b;
+}
+
+.light {
+  color: #000;
+}
+
+
+/* ===== */
+.fa-solid{
+  font-size: 23px;
+}
+.fa-solid:hover{
+  font-size: 25px;
+  transition: all 0.25ms;
+}
+ .light .fa-sun{
+display: none;
+}
+.fa-sun{
+  color: orange;
+}
+.dark .fa-moon{
+  display: none;
+  }
+form{
+  display: flex;
+  flex-direction: column;
+  
+}
+form p{
+  font-size: 15px;
+}
+form input{
+  margin-bottom: 8px;
+  border-radius: 4px;
+  padding: 5px;
+  padding-left: 10px;
+  outline: none;
+  border: 1px solid teal;
+  color: darkorange;
+}
+form input:hover{
+  border:1px solid rgb(5, 189, 81);
+}
+form button{
+  padding:6px 3px;
+  color:rgb(245, 248, 245) ;
+  border-radius: 6px;
+  outline: none;
+  border:1px solid rgb(27, 121, 228);
+  background-color:rgb(134, 216, 152) ;
+}
+form button:active{
+  scale: 0.9;
+  border-radius: 0;
+}
+
+form p a, .pls a{
+  border-bottom: 2px solid;
+  color: rgb(52, 204, 204);
+}
+.mainp{
+  color: #1b1b1b;
+}
+.dark .mainp{
+  color: white;
+}
+.dark  main p,h1,h6{
+  color: #f2f2f2 !important;
+}
+.light main p,h1,h6{
+  color: #000;
+}
+.p h6{
+  margin: 7px;
+}
+.delete{
+  padding: 10px 15px;
+  background-color: rgb(204, 40, 40);
+  border-radius: 4px;
+  margin-top: 5px;
+  border: none;
+}
+.delete:hover{
+  scale :1.1;
+  transition: all 0.12s;
+
+}
+
+.delete:active{
+scale:0.8;
+text-shadow: #1b1b1b;
+}
+button:hover{
+  scale :1.1;
+  transition: all 0.12s;
+  cursor: pointer;
+
+}
+button:active{
+  scale:0.8;
+  text-shadow: #1b1b1b;
+  }
+/* animation span */
+span {
+  animation: heart 2s infinite linear;
+}
+
+@keyframes heart {
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+/* ==============
+default class
+=============== */
+.center{
+  text-align: center;
+}
+.mt{
+  margin-top: 1em;
+}
+.mtt{
+  margin-top: 2em;
+}
+.mttt{
+  margin-top: 3em;
+}
+
+/* css scroll style */
+ 
+::-webkit-scrollbar {
+  width: 1.1rem;
+ }
+ 
+::-webkit-scrollbar-track {
+  border: 7px solid #232943;
+  box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  }
+ 
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #858585, #3c3c3c);
+  border-radius: 1rem;
+}
+ 
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(270deg, grey, #3d4a59, grey);
+}
+ 
+/* for Firefox */
+ html {scrollbar-color: #9e4673 #3d4a59;} 

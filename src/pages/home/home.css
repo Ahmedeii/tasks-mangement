@@ -1,0 +1,125 @@
+  
+  /* =============
+  button and select option
+  tasks
+  button add task
+  ================*/
+
+
+
+
+  /* =============
+  button and select option
+  ================*/
+.parentbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .parentbtn button{
+  margin: 5px;
+  padding: 8px 14px;
+  background-color:#3467c2;
+  border-radius: 3px;
+  border: 0;
+  margin-top: 20px;
+  }
+  .parentbtn select{
+    padding: 7px 12px;
+    border-radius: 3px;
+    background-color: gray;
+    margin: 13px 0px 0px 6px;
+  }
+  
+  /* =============
+  tasks 
+  ================*/
+  .alltasks{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .alltasks .onetask{
+    border: 1px antiquewhite solid;
+width: 300px;  
+height: 141px;
+transition: 0.2s;
+border-radius: 4px;
+  position: relative;
+  }
+
+  .link{
+    display: block;
+    margin: 40px 17px;
+  }
+
+   .dark .alltasks .onetask:hover{
+    border-left: 8px white solid;
+  }
+  .alltasks .onetask h2{
+  font-size: 20px;
+  margin: 7px;
+  
+  }
+  .alltasks .onetask li{
+    font-size: 15px;
+    text-align: start;
+    margin-top: 14px;
+    margin-left: 6px;
+    list-style-type: circle;
+    list-style-position: inside;
+    }
+    .alltasks .onetask .time time {
+      font-size: 13px;
+      font-weight: normal;
+      margin-top: 20px;
+      color: #acc2e7;
+      position: absolute;
+      right: 7px;
+      bottom: 7px;
+      }
+  
+
+  /* =============
+  button add task
+  ================*/
+    
+      .addtask{
+        padding: 8px 14px;
+        background-color: teal;
+        border: none;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        
+      }
+      
+  
+      .light .onetask{
+        background-color:  rgb(65, 71, 84);
+        transition: 0.2s;
+
+      }
+      .light .onetask:hover{
+        border-left-color: rgb(34, 32, 32) !important;
+        border-left-width: 8px;
+      }
+      /* model */
+      
+      .model-content{
+        text-align: left;
+        height: 100%;
+        margin-top: 55px;
+      }
+      .ulhome li{
+          color: #333;
+          list-style-type: circle;
+          list-style-position: inside;
+          margin-bottom: 4px;
+          font-size: 13px;
+        
+      }
+    
+
+
+
+
+

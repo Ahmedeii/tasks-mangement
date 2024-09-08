@@ -1,0 +1,137 @@
+/* ============
+header
+data edit
+button
+========== */
+
+/* ==============
+header
+================= */
+
+.parentedite{
+  height: calc(100vh - 133px);
+}
+
+.inputheader{
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+}
+.inputheader:focus{
+  outline: none;
+}
+/* ================
+dataedit
+=================== */
+.data-edite{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 620px;
+  height: 200px;
+  
+}
+.head-data-edite{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head-data-edite p{
+  color: #dfb50d!important;
+  font-size:16px !important;
+  font-weight: normal;
+  margin-top: 3px;
+
+}
+.head-data-edite .check{
+  display: flex;
+margin-top: 3px;
+}
+.head-data-edite label{
+  margin-left: 6px;
+
+}
+.head-data-edite #time{
+  width: 18px;
+  height: 18px;
+  accent-color: rgb(58, 153, 148);
+}
+.head-data-edite p time{
+  color: #dfb50d;
+  font-size: 16px;
+  font-weight: normal;
+  
+}
+
+.cardtask{
+  background-color: rgb(65, 71, 84);
+  box-shadow:0 5px 30px 0 rgb(0 0 0/15%) ;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+  padding: 0px 10px;
+  border-radius: 4px;
+  margin: 11px 0px;
+}
+.cardtask:hover{
+background-color: rgb(74, 82, 97);
+border-left: 4px solid wheat;
+}
+.fa-trash{
+  font-size: 16px;
+  color: rgb(204, 40, 40);
+}
+.fa-pen-to-square:hover{
+  cursor: pointer;
+}
+
+.add-new-task{
+  background-color: rgb(74, 82, 97);
+  box-shadow:0 5px 30px 0 rgb(0 0 0/15%) ;
+  border-radius: 4px;
+  padding: 0px 13px;
+margin: 5px 0px;
+  height: 40px;
+  animation: newtask 0.9s;
+}
+@keyframes newtask{
+  0%{scale: 0;}
+  50%{scale: 1.5}
+  100%{scale: 1;}
+}
+
+/* ==========
+button add
+============= */
+.add-task{
+  outline: none;
+    padding: 4px 3px;
+    margin: 4px 0;
+  border-radius: 5px;
+  color: rgb(48, 172, 130);
+
+}
+.add,.cancel{
+margin-left: 5px;
+padding:6px 3px;
+color:rgb(245, 248, 245) ;
+border-radius: 6px;
+outline: none;
+border:1px solid rgb(27, 121, 228);
+background-color:rgb(134, 216, 152) ;
+}
+.addmore{
+    padding: 10px 18px;
+    background-color: teal;
+    border-radius: 4px;
+    border: none;
+}
+
+/* ===========
+color theme
+============== */
+.light .inputheader,.light label, .light .head-data-edite p ,.light .fa-pen-to-square{
+  color:  rgb(65, 71, 84);
+}

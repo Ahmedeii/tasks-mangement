@@ -1,0 +1,24 @@
+
+
+
+
+.show{
+  line-height: 5px;
+  cursor: pointer;
+
+}
+.show:hover{
+  font-size: 20px;
+}
+
+
+.light .parag{
+  color: #444242;
+  
+}
+.dark .parag{
+  color: aliceblue;
+}
+.closeform{
+  display: none;
+}

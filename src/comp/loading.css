@@ -1,0 +1,14 @@
+.load{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-right: 5px solid red;
+  border-top: 5px solid red;
+
+  animation: mymove 1s infinite linear;
+    transform-origin: left right; /*تحديد نقطة الالتفاف في منتصف الدائ */
+}
+@keyframes mymove{
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
