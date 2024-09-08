@@ -1,0 +1,6 @@
+.hide-when-mobile{
+  flex-direction: column;
+}
+.hide-when-mobile .fa-moon,.fa-sun{
+  margin-left: 20px !important
+}
