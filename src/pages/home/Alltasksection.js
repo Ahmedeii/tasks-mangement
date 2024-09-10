@@ -16,7 +16,7 @@ const Alltasksection = ({ user }) => {
   );
   const [opacity, setopacity] = useState(false);
   const [value, loading, error] = useCollection(initialdata);
-  const { t, i18n } = useTranslation();
+  const {  i18n } = useTranslation();
 
   if (error) {
     return <h1>error</h1>;

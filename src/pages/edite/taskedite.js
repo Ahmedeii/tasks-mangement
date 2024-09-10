@@ -8,7 +8,7 @@ import { useState } from "react";
 const Taskedite = ({ user, stringid, checkbox, icondelete, removeall }) => {
   const [addnewtask, setaddnewtask] = useState(false);
   const [inputvalue, setinputvalue] = useState("");
-  const [value, loading, error] = useDocument(doc(db, user.uid, stringid));
+  const [value] = useDocument(doc(db, user.uid, stringid));
   
   
 

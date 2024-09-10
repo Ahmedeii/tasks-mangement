@@ -36,4 +36,4 @@ To run the project locally, follow these steps:
 4. Run the app:
   npm start
 
-  The app will run on http://localhost:3000.
+  The app will run on https://ahmedstore-8b72d.web.app/.

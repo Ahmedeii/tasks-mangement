@@ -148,7 +148,7 @@ form p a, .pls a{
 .dark .mainp{
   color: white;
 }
-.dark  main p,h1,h6{
+.dark  main h1,h6{
   color: #f2f2f2 !important;
 }
 .light main p,h1,h6{

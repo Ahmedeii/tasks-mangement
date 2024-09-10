@@ -1,6 +1,6 @@
 import {useContext } from "react";
 import ThemeContext from "./contextapp/context";
-import { createBrowserRouter, createHashRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/home/home";
 import About from "./pages/About";
 import Signin from "./pages/sign/Signin"

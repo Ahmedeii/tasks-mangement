@@ -1,7 +1,9 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
+
 const Snackbar = ({right}) => {
+
   return (
     
     <div>
@@ -10,7 +12,7 @@ const Snackbar = ({right}) => {
           {`
           
       .show-message{
-        color: #333;
+      color:#605959;
         background-color: white;
         border-radius: 3px;
         position: fixed;
@@ -31,7 +33,7 @@ const Snackbar = ({right}) => {
           `}
         </style>
       </Helmet>
-      <p className="show-message" style={{right: right ? "-100vw":"20px"}}>task add successfully<i className="fa-regular fa-circle-check"></i></p>
+      <p className="show-message" style={{right: right ? "-100vw":"20px"}}>Task Add Successfully<i className="fa-regular fa-circle-check"></i></p>
               
     </div>
   );
