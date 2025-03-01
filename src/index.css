@@ -74,7 +74,7 @@ h1 {
   background-color: rgba(31, 30, 30, 0.885)!important
 }
 .light main p{
-  color:#1b1b1b
+  color:#1b1b1b ;
 }
 .light .m{
   color: #000;
@@ -132,6 +132,8 @@ form button{
   outline: none;
   border:1px solid rgb(27, 121, 228);
   background-color:rgb(134, 216, 152) ;
+  margin-bottom: 9px;
+
 }
 form button:active{
   scale: 0.9;
@@ -148,6 +150,7 @@ form p a, .pls a{
 .dark .mainp{
   color: white;
 }
+
 .dark  main h1,h6{
   color: #f2f2f2 !important;
 }

@@ -6,7 +6,8 @@ const Model = ({closemodel,children}) => {
   
   return (
 
-      <div className="parentmodel">  <form style={{backgroundColor: "whiteSmoke"}} className="model" action="">
+      <div className="parentmodel">
+          <form style={{backgroundColor: "whiteSmoke"}} className="model" action="">
         
         <style>{`
     

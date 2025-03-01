@@ -22,7 +22,7 @@ if (i18n.language ==="en") {
   return (
     <div className="myfooter">
           <footer className="ali   ">
-          Designed and developed by Courses4Arab.com<span>🧡</span>
+          Designed and developed by Ahmed Abdelnabi <span>🧡</span>
           </footer>
     </div>
       );
@@ -33,7 +33,7 @@ if (i18n.language ==="fr") {
   return (
     <div className="myfooter">
           <footer className="ali   ">
-          Conçu et développé par Courses4Arab.com<span>🧡</span>
+          Conçu et développé par Ahmed Abdelnabi<span>🧡</span>
           </footer>
     </div>
       );
